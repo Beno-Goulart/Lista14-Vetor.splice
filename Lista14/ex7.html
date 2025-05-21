@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<body>
+    Receita Mês <input type="text" name="" id="ipt_mes"><br>
+    <button onclick="registrar()">Registrar</button><br>
+    <div id="div"></div>
+</body>
+</html>
+<script>
+    var vt_receita = []
+
+    function registrar() {
+        var mes = ipt_mes.value
+        for (var index = 1; index < 12; index++) {
+            vt_receita.push(mes)
+            ipt_mes.value = ""; 
+        }
+
+        
+    }
+</script>

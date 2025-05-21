@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+
+<body>
+    Nome da Fruta <input type="text" name="" id="ipt_nome"><br>
+    <button onclick="cadastrar()">Cadastrar</button>
+    <button onclick="deletar()">Deletar</button>
+</body>
+
+</html>
+
+<script>
+    var vt_fruta = []
+    function cadastrar() {
+        var fruta = ipt_nome.value;
+        vt_fruta.push(fruta)
+        ipt_nome.value = "";
+    }
+
+    function deletar() {
+        var fruta = ipt_nome.value;
+        for (var index = 0; index < vt_fruta.length; index++) {
+            if (vt_fruta[index] == fruta) {
+                vt_fruta.splice(index,1);
+            }
+        }
+        ipt_nome.value = "";
+    }
+</script>
