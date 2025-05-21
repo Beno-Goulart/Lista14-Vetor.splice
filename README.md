@@ -1,1 +1,1 @@
-# Lista-de-Exerc-cio-14---Alterando-e-Eliminando-elementos-do-vetor
+Lista14-Vetor.splice
