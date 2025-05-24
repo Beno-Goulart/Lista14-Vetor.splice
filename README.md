@@ -54,11 +54,11 @@ Este repositório contém as soluções dos exercícios da **Lista 14** da disci
 ## 🔧 Como Executar
 1. Clone este repositório:  
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Beno-Goulart/Lista14-Vetor.splice.git
    ```
 2. Acesse a pasta do projeto:
    ```
-   cd nome-do-repositorio
+   cd Lista14-Vetor.splice
    ```
 3. Abra o arquivo `index.html` (ou equivalente) no seu navegador.
 
