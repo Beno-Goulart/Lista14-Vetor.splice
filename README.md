@@ -67,5 +67,5 @@ Este repositório contém as soluções dos exercícios da **Lista 14** da disci
 - Os exercícios são voltados para prática acadêmica e podem ser aprimorados para fins mais profissionais.
 
 ## 👩‍💻 Autora
-Feito por [Seu Nome]  
+Feito por Beno Goulart  
 Aluno(a) da SPTech - 2025
